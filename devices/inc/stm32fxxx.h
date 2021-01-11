@@ -47,6 +47,11 @@
 #include <stm32f031.h>
 #endif
 
+#ifdef STM32F103
+#define STM32F1
+#include <stm32f103.h>
+#endif
+
 /**
 	@brief Disables interrupts without saving the previous enable state
  */
